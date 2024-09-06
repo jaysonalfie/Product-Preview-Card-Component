@@ -21,8 +21,10 @@ const productCard = () => {
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
-          <span className="product_price">$149.99</span>
-          <s> $169.99</s>
+         <div className="product_prices">
+         <span className="product_card_price">$149.99</span>
+         <s> $169.99</s>
+         </div>
           <div className="product_btn">
             <button type="button">
               <img src={Cart} alt="adding to cart" />
