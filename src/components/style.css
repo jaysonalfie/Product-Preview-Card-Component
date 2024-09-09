@@ -86,6 +86,7 @@
 }
  .product_card .product_description{
   font-size: 0.9rem;
+  line-height: 1.6;
  }
 
 .product_card_left .product_prices{
@@ -159,6 +160,11 @@
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   font-weight: 500;
+}
+ /* line-height adds spaces between lines in a paragraph */
+.product_card_left .product_description{
+  font-size: 0.875rem;
+  line-height: 1.7;
 }
 
 
